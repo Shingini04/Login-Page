@@ -1,0 +1,98 @@
+body {
+    background: rgb(54, 28, 105);
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .login-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  h1 {
+    color: #a14a6e;
+    margin-bottom: 30px;
+  }
+  
+  .input-container {
+    background-color: rgba(187, 181, 181, 0.5);
+    border-radius: 2px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .input-container input {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    background-color: transparent;
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .login-btn {
+    background-color: #9370db;
+    color: #ffffff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .login-btn:hover {
+    background-color: #6741b3;
+  }
+  
+  .forgot-password,
+  .register-link {
+    color: #9370db;
+    text-decoration: none;
+  }
+  
+  .forgot-password:hover,
+  .register-link:hover {
+    text-decoration: underline;
+  }
+  
+  .separator {
+    color: #161111;
+    margin-bottom: 20px;
+  }
+  
+  .social-btn {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #333;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 16px;
+    box-shadow: 2px 4px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .google-btn:before {
+    margin-right: 10px;
+    height: 20px;
+  }
+  
+  .facebook-btn:before {
+    margin-right: 10px;
+    height: 20px;
+  }
+  
